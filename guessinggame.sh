@@ -1,5 +1,5 @@
 function count {
-  count1=$(ls -1 | wc -l)
+  count1=$(find . -maxdepth 1 -type f| wc -l)
   echo $count1
 }
 
