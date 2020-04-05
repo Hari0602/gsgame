@@ -13,4 +13,4 @@
 2. The date and time at which make was run.
 3. The number of lines of code contained in guessinggame.sh.
 
-##By Harikrishna Goli 
+##  By Harikrishna Goli 
