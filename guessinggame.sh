@@ -4,20 +4,20 @@ function count {
 }
 
 count2=$(count)
-echo "Hello! Nice to meet you at my game! =)"
+echo "Hello welcome to the game"
 echo "Guess the number of files in my current directory, please"
-read num
+read a
 
-while [[ $count2 -ne $num ]]
+while [[ $count2 -ne $a ]]
 do
-  if [[ $count2 -gt $num ]]
+  if [[ $count2 -gt $a ]]
   then
     echo "It's too small! Try another number, please"
-    read num
-  elif [[ $count2 -lt $num ]]
+    read a
+  elif [[ $count2 -lt $a ]]
   then
     echo "It's too much! Try another number, please"
-    read num
+    read a
   fi
 done
 
